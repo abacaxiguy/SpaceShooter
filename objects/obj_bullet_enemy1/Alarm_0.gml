@@ -1,9 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-vspeed = 3 * 2
-
-image_xscale = 2
-image_yscale = 2
-
-alarm[0] = 2
+image_xscale = 1
+image_yscale = 1
