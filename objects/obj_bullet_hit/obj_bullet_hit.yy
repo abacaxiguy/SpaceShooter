@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_bullet_enemy1",
-    "path": "sprites/spr_bullet_enemy1/spr_bullet_enemy1.yy",
+    "name": "spr_bullet_hit",
+    "path": "sprites/spr_bullet_hit/spr_bullet_hit.yy",
   },
   "solid": false,
   "visible": true,
@@ -21,17 +21,16 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":7,"eventType":7,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Enemies",
-    "path": "folders/Objects/Enemies.yy",
+    "name": "Misc",
+    "path": "folders/Objects/Misc.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_bullet_enemy1",
+  "name": "obj_bullet_hit",
   "tags": [],
   "resourceType": "GMObject",
 }
