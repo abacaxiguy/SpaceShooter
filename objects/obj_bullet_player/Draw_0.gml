@@ -5,5 +5,5 @@ draw_self()
 
 
 gpu_set_blendmode(bm_add)
-draw_sprite_ext(spr_shine_bullet, image_index, x, y, image_xscale * .7, image_yscale * .7, image_angle, c_yellow, 0.5)
+draw_sprite_ext(spr_shine_bullet, image_index, x, y, image_xscale * .7, image_yscale * .7, image_angle, colors, 0.5)
 gpu_set_blendmode(bm_normal)
