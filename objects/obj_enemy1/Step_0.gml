@@ -1,3 +1,3 @@
 /// @description Insert description here
 // You can write your code in this editor
-if y > 1100 instance_destroy()
+if y > room_height + 100 instance_destroy(id, false)
