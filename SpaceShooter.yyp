@@ -4,6 +4,7 @@
     {"id":{"name":"spr_background_3","path":"sprites/spr_background_3/spr_background_3.yy",},"order":4,},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},"order":1,},
     {"id":{"name":"obj_enemy_explosion","path":"objects/obj_enemy_explosion/obj_enemy_explosion.yy",},"order":1,},
+    {"id":{"name":"spr_shine_enemy","path":"sprites/spr_shine_enemy/spr_shine_enemy.yy",},"order":7,},
     {"id":{"name":"spr_shine_bullet","path":"sprites/spr_shine_bullet/spr_shine_bullet.yy",},"order":6,},
     {"id":{"name":"obj_bullet_player","path":"objects/obj_bullet_player/obj_bullet_player.yy",},"order":0,},
     {"id":{"name":"obj_enemy1","path":"objects/obj_enemy1/obj_enemy1.yy",},"order":1,},
