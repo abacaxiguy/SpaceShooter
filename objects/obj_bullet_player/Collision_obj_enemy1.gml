@@ -3,3 +3,5 @@
 
 instance_destroy()
 instance_destroy(other)
+
+global.points += 10
