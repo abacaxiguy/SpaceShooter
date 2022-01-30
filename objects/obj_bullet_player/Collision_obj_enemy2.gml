@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-global.points = 0
+instance_destroy()
+instance_destroy(other)
 
-
-alarm[0] = irandom_range(20, 40)
+global.points += 100
