@@ -5,3 +5,4 @@
 event_inherited();
 
 shine = spr_shine_bullet2
+colors = c_yellow

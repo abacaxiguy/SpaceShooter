@@ -10,6 +10,10 @@ firing = function() {
 		alarm[0] = bullet_speed
 		
 		if bullet_level == 1 instance_create_layer(x, y-(sprite_height/4), "Bullets", obj_bullet_player)
-		else if bullet_level == 2 instance_create_layer(x, y-(sprite_height/4), "Bullets", obj_bullet2_player)
+		
+		else if bullet_level == 2 {
+			instance_create_layer(x - 53, y-(sprite_height/4), "Bullets", obj_bullet2_player)
+			instance_create_layer(x + 53, y-(sprite_height/4), "Bullets", obj_bullet2_player)
+		}
 	}
 }
