@@ -13,9 +13,9 @@ firing = function() {
 		
 		else if bullet_level == 2 {
 			var bullet_left = instance_create_layer(x - 53, y-(sprite_height/4), "Bullets", obj_bullet2_player)
-			bullet_left.hspeed = 2
+			bullet_left.hspeed = -4
 			var bullet_right = instance_create_layer(x + 53, y-(sprite_height/4), "Bullets", obj_bullet2_player)
-			bullet_right.hspeed = -2
+			bullet_right.hspeed = 4
 		}
 	}
 }
