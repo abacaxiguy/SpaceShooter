@@ -6,4 +6,7 @@ image_yscale = 2.5
 
 alarm[0] = 2
 
+
+shine = spr_shine_bullet
+
 colors = choose(c_blue, c_aqua, c_teal)
