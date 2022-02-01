@@ -12,8 +12,10 @@ firing = function() {
 		if bullet_level == 1 instance_create_layer(x, y-(sprite_height/4), "Bullets", obj_bullet_player)
 		
 		else if bullet_level == 2 {
-			instance_create_layer(x - 53, y-(sprite_height/4), "Bullets", obj_bullet2_player)
-			instance_create_layer(x + 53, y-(sprite_height/4), "Bullets", obj_bullet2_player)
+			var bullet_left = instance_create_layer(x - 53, y-(sprite_height/4), "Bullets", obj_bullet2_player)
+			bullet_left.hspeed = 2
+			var bullet_right = instance_create_layer(x + 53, y-(sprite_height/4), "Bullets", obj_bullet2_player)
+			bullet_right.hspeed = -2
 		}
 	}
 }
