@@ -21,15 +21,13 @@ firing = function() {
 		}
 		
 		else if bullet_level == 4 {
-			instance_create_layer(x, y-(sprite_height/4), "Bullets", obj_bullet_player)
-			
-			var bullet_2 = instance_create_layer(x, y-(sprite_height/4), "Bullets", obj_bullet_player)
-			bullet_2.image_angle = 55 + 90
-			bullet_2.direction = 55
-			
-			var bullet_3 = instance_create_layer(x, y-(sprite_height/4), "Bullets", obj_bullet_player)
-			bullet_3.image_angle = 125 + 90
-			bullet_3.direction = 125
+			var angle = 75
+			repeat(3){
+				var ma_bullet = instance_create_layer(x, y-(sprite_height/4), "Bullets", obj_bullet_player)
+				ma_bullet.direction = angle
+				ma_bullet.image_angle = ma_bullet.direction - 90
+				angle+=15
+			}
 		}
 	}
 }
