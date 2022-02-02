@@ -4,5 +4,5 @@
 // Inherit the parent event
 event_inherited();
 
-shine = spr_shine_bullet2
-colors = c_yellow
+if x > xstart + 50 || x < xstart - 50 hspeed *= -1
+
