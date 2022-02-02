@@ -21,14 +21,14 @@ firing = function() {
 		}
 		
 		else if bullet_level == 4 {
-			var angle = 75
-			repeat(3){
-				var ma_bullet = instance_create_layer(x, y-(sprite_height/4), "Bullets", obj_bullet_player)
-				ma_bullet.direction = angle
-				ma_bullet.image_angle = ma_bullet.direction - 90
-				angle+=15
-			}
+			three_bullets()
 		}
+		
+		else if bullet_level == 5 {
+			zigzag_bullet()
+			three_bullets()
+		}
+			
 	}
 }
 
@@ -38,4 +38,14 @@ zigzag_bullet = function() {
 			
 	var bullet_right = instance_create_layer(x + 50, y-(sprite_height/4), "Bullets", obj_bullet2_player)
 	bullet_right.hspeed = 5
+}
+
+three_bullets = function() {
+	var angle = 75
+	repeat(3){
+		var ma_bullet = instance_create_layer(x, y-(sprite_height/4), "Bullets", obj_bullet_player)
+		ma_bullet.direction = angle
+		ma_bullet.image_angle = ma_bullet.direction - 90
+		angle+=15
+	}
 }
