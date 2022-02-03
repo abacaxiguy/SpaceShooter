@@ -12,3 +12,5 @@ else side = 4
 firing = function() {
 	if y > 0 instance_create_layer(x, y+(sprite_height/3), "Bullets", obj_bullet_enemy2)
 }
+
+probability = 10
