@@ -3,6 +3,7 @@
 speeed = 5
 
 bullet_speed = 30
+
 bullet_level = 1
 
 firing = function() {
@@ -48,4 +49,14 @@ three_bullets = function() {
 		ma_bullet.image_angle = ma_bullet.direction - 90
 		angle+=15
 	}
+}
+
+level_up = function(_probability) {
+	
+		if _probability >= 90 && bullet_level < 5 bullet_level++
+		
+		else if _probability >= 45 && bullet_speed > 20 bullet_speed *= 0.9
+		
+		else if _probability >= 0 && speeed < 10 speeed += .5	
+		
 }
