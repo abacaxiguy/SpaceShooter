@@ -52,7 +52,7 @@ three_bullets = function() {
 }
 
 level_up = function(_probability) {
-	
+		show_debug_message(_probability)
 		if _probability >= 90 && bullet_level < 5 bullet_level++
 		
 		else if _probability >= 45 && bullet_speed > 20 bullet_speed *= 0.9
