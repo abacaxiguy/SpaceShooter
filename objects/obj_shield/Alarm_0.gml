@@ -1,7 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-image_speed = 0
-image_index = 2
+if image_index > 0 image_index-- 
 
-alarm[0] = room_speed * 2
+else instance_destroy()
+
+alarm[0] = room_speed
