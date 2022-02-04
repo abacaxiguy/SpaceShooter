@@ -7,10 +7,13 @@ up = keyboard_check(ord("W"))
 down = keyboard_check(ord("S"))
 left = keyboard_check(ord("A"))
 right = keyboard_check(ord("D"))
-shield = keyboard_check(ord("E"))
+shield = keyboard_check_pressed(ord("E"))
 
 
-if shield instance_create_depth(x, y, layer, obj_shield)
+if shield {
+	var shield = instance_create_layer(x, y, "Shield", obj_shield)
+	shield.target = id
+}
 
 y += (down-up)*speeed
 x += (right-left)*speeed
