@@ -14,4 +14,4 @@ else if probability >= 0 color = c_aqua
 speed = 2
 direction = irandom(359)
 
-alarm[0] = room_speed * 5
+alarm[0] = room_speed
