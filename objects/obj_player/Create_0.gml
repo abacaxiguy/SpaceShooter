@@ -1,5 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
+life = 3
+
 speeed = 5
 
 bullet_speed = 30
@@ -59,4 +61,8 @@ level_up = function(_probability) {
 		
 		else if _probability >= 0 && speeed < 10 speeed += .5	
 		
+}
+
+loose_life = function() {
+	if life > 0 life--
 }

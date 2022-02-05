@@ -27,3 +27,4 @@ if keyboard_check_pressed(vk_down) && bullet_level > 1 bullet_level--
 if keyboard_check_pressed(vk_right) && bullet_speed > 20 bullet_speed *= 0.9
 if keyboard_check_pressed(vk_left) bullet_speed *= 1.1
 
+show_debug_message(life)
