@@ -64,5 +64,6 @@ level_up = function(_probability) {
 }
 
 loose_life = function() {
-	if life > 0 life--
+	if life > 1 life--
+	else instance_destroy()
 }
