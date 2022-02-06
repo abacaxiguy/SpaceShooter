@@ -7,6 +7,8 @@ level = 1
 
 next_level = 100
 
+gameover = noone
+
 
 create_enemies = function (){
 	var enemy = obj_enemy1
