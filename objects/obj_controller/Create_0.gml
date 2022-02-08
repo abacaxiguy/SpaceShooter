@@ -15,7 +15,7 @@ create_enemies = function (){
 
 	if random_range(0, level) > 2 enemy = obj_enemy2
 
-	instance_create_layer(irandom_range(20, 1900), irandom_range(-300, -1000), "Enemies", enemy)
+	instance_create_layer(irandom_range(20, 1900), irandom_range(-300, -1000 - (level * 800)), "Enemies", enemy)
 }
 
 alarm[0] = irandom_range(20, 40)
