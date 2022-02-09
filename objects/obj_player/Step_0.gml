@@ -10,9 +10,10 @@ right = keyboard_check(ord("D"))
 shield = keyboard_check_pressed(ord("E"))
 
 
-if shield {
+if shield && shields > 0 {
 	var shield = instance_create_layer(x, y, "Shield", obj_shield)
 	shield.target = id
+	shields--
 }
 
 y += (down-up)*speeed

@@ -8,6 +8,8 @@ bullet_speed = 30
 
 bullet_level = 1
 
+shields = 3
+
 firing = function() {
 	if keyboard_check(vk_space) && alarm[0] == -1 { 
 		alarm[0] = bullet_speed
