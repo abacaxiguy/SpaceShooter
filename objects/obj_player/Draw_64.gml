@@ -6,3 +6,7 @@ var our_y = display_get_gui_height() - sprite_height * .4
 for (i = 1; i <= life; i++){
 	draw_sprite_ext(spr_player, 1, 50 + 50 * (i - 1), our_y, .4, .4, 0, c_white, 0.4)
 }
+
+for (i = 1; i <= shields; i++){
+	draw_sprite_ext(spr_shield, 2, 50 + 50 * (i - 1), our_y - 55, .34, .34, 0, c_white, 0.4)
+}
