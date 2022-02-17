@@ -6,6 +6,9 @@ if image_index > 0 {
 	image_alpha -= .2
 }
 
-else instance_destroy()
+else {
+	obj_player.shield_on = false
+	instance_destroy()
+}
 
 alarm[0] = room_speed

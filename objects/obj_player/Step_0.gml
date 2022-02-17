@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-var up, down, left, right, shield 
+var up, down, left, right, shield
 
 up = keyboard_check(ord("W"))
 down = keyboard_check(ord("S"))
