@@ -12,7 +12,7 @@ firing = function() {
 drop_item = function (_probability){
 	var value = random(100)
 	
-	if value < _probability instance_create_layer(x, y, "Bullets", obj_power_up)
+	if value < _probability && y > 96 instance_create_layer(x, y, "Bullets", obj_power_up)
 }
 
 if place_meeting(x, y, obj_enemy1) instance_destroy(id, false)

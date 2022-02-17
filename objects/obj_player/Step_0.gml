@@ -19,6 +19,9 @@ if shield && shields > 0 {
 y += (down-up)*speeed
 x += (right-left)*speeed
 
+x = clamp(x, 64, 1856)
+y = clamp(y, 64, 1024)
+
 
 firing()
 
