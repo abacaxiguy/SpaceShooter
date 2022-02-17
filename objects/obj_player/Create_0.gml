@@ -57,11 +57,20 @@ three_bullets = function() {
 
 level_up = function(_probability) {
 		
-		if _probability >= 90 && bullet_level < 5 bullet_level++
+		if _probability >= 90 {
+			if bullet_level < 5 bullet_level++
+			else global.points += 100
+		}
 		
-		else if _probability >= 45 && bullet_speed > 20 bullet_speed *= 0.9
+		else if _probability >= 45 {
+			if bullet_speed > 15 bullet_speed *= 0.9
+			else global.points += 10
+		}
 		
-		else if _probability >= 0 && speeed < 10 speeed += .5	
+		else if _probability >= 0 {
+			if speeed < 12 speeed += .5	
+			else global.points += 10
+		}
 		
 }
 
