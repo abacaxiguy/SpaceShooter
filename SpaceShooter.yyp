@@ -1,10 +1,12 @@
 {
   "resources": [
+    {"id":{"name":"obj_boss","path":"objects/obj_boss/obj_boss.yy",},"order":0,},
     {"id":{"name":"spr_bullet_enemy1","path":"sprites/spr_bullet_enemy1/spr_bullet_enemy1.yy",},"order":0,},
     {"id":{"name":"spr_background_3","path":"sprites/spr_background_3/spr_background_3.yy",},"order":4,},
     {"id":{"name":"spr_power_up","path":"sprites/spr_power_up/spr_power_up.yy",},"order":9,},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},"order":1,},
     {"id":{"name":"obj_controller","path":"objects/obj_controller/obj_controller.yy",},"order":2,},
+    {"id":{"name":"spr_boss_combate","path":"sprites/spr_boss_combate/spr_boss_combate.yy",},"order":0,},
     {"id":{"name":"obj_enemy_explosion","path":"objects/obj_enemy_explosion/obj_enemy_explosion.yy",},"order":1,},
     {"id":{"name":"spr_shine_enemy","path":"sprites/spr_shine_enemy/spr_shine_enemy.yy",},"order":7,},
     {"id":{"name":"obj_screenshake","path":"objects/obj_screenshake/obj_screenshake.yy",},"order":4,},
@@ -78,6 +80,8 @@
     {"folderPath":"folders/Objects/Player.yy","order":5,"resourceVersion":"1.0","name":"Player","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/Misc.yy","order":2,"resourceVersion":"1.0","name":"Misc","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/Misc.yy","order":6,"resourceVersion":"1.0","name":"Misc","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/Boss.yy","order":3,"resourceVersion":"1.0","name":"Boss","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Objects/Boss.yy","order":7,"resourceVersion":"1.0","name":"Boss","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
