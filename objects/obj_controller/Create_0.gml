@@ -25,4 +25,4 @@ shake_it = function(_power){
 	instance_create_layer(0,0, "Shield", obj_screenshake)
 }
 
-alarm[0] = irandom_range(20, 40)
+//alarm[0] = irandom_range(20, 40)
